@@ -437,6 +437,9 @@ a:hover{
 .mr-4{
   margin-right: 4rem;
 }
+.mr-10{
+  margin-right: 10rem;
+}
 /* #endregion*/
 
 /* #region index */
@@ -459,7 +462,7 @@ a:hover{
 /* #region about */
 .about-page{
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .about-img{
   display: block;
@@ -473,7 +476,6 @@ a:hover{
 }
 .flex-container{
   display: flex;
-  justify-content: space-between;
 }
 .pill-btn{
   background-color: var(--dark-grey-color);
@@ -490,7 +492,7 @@ a:hover{
 /* #region resume */
 .resume-page{
   width: 65%;
-  height: 100%;
+  height: auto;
   margin: auto;
 }
 .resume-page h2{
